@@ -1,0 +1,39 @@
+header{
+    color: #000;
+    text-align: right;
+    font-family: 'Notable', sans-serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190px; /* 86.957% */
+    letter-spacing: -1.9px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-top: -180px;
+}
+
+body{
+    padding-right: 20px;
+    margin: 0px;
+    background-color: #E7E8D2;
+    /*background: #E4E81D;*/
+}
+
+.slogan, .contact, .dashes{
+    text-align: right;
+    color: #000;
+    font-family: 'Manjari', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dashes{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.copy{
+    margin-top: 270px;
+}
