@@ -80,14 +80,11 @@ body{
     margin-right: 50px;
 }
 
-.contact3{
-    color: inherit;
-    text-decoration: none;
+.contact3 span {
+    color: white !important;
+    text-decoration: none !important;
+    pointer-events: none !important;
 }
-a[href^="tel"] {
-    color: inherit;
-    text-decoration: none;
-  }
 
 @media (max-width: 1550px) {
     header{
@@ -163,10 +160,6 @@ a[href^="tel"] {
     .contact, .contact2, .contact3{
         line-height: 1px;
         margin-bottom: 12px;
-    }
-    .contact3{
-        color: inherit !important;
-        text-decoration: none !important;
     }
 }
 
