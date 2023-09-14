@@ -3,7 +3,7 @@ nav{
     height: 116px;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #F2F2F2;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -43,8 +43,13 @@ header, .home-link{
 
 body{
     margin: 0px;
-    background-color: #9F1515;
+    background-color: #F2F2F2;
     /*background: #E4E81D;*/
+}
+
+.viewable-body{
+    background: #9F1515;
+    height: 100vh;
 }
 
 .slogan, .contact, .dashes, .contact2, .contact3 {
@@ -160,6 +165,11 @@ body{
     .contact, .contact2, .contact3{
         line-height: 1px;
         margin-bottom: 12px;
+    }
+    .contact3 span {
+        color: white !important;
+        text-decoration: none !important;
+        pointer-events: none !important;
     }
 }
 
