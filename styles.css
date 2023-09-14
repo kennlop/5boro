@@ -1,6 +1,27 @@
-header{
-    color: #DB7575;
+nav{
+    display: flex;
+    height: 116px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.permalinks{
+    color: #000;
     text-align: right;
+    font-family: 'Manjari', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+header, .home-link{
+    color: white;
+    text-align: center;
     font-family: 'Notable', sans-serif;
     font-size: 120px;
     font-style: normal;
@@ -12,16 +33,23 @@ header{
     margin-top: -180px;
 }
 
+.home-link{
+    font-size: 24px !important;
+    color: black;
+    margin-top: 0px;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
 body{
-    padding-right: 20px;
     margin: 0px;
-    background-color: #130E48;
+    background-color: #9F1515;
     /*background: #E4E81D;*/
 }
 
-.slogan, .contact, .dashes{
-    text-align: right;
-    color: #DB7575;
+.slogan, .contact, .dashes, .contact2, .contact3 {
+    text-align: center;
+    color: white;
     font-family: 'Manjari', sans-serif;
     font-size: 24px;
     font-style: normal;
@@ -29,11 +57,25 @@ body{
     line-height: normal;
 }
 
-.dashes{
-    margin-top: -27px;
-    margin-bottom: -27px;
+.slogan{
+    border-bottom: 2px solid white;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 70px;
 }
 
 .copy{
-    margin-top: 28vh;
+    margin-top: 20vh;
+}
+
+.contact-bar{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact, .contact2, .contact3{
+    margin-left: 50px;
+    margin-right: 50px;
 }
