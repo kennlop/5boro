@@ -91,6 +91,12 @@ body{
     pointer-events: none !important;
 }
 
+a[href^="tel"] {
+    color: white;
+    text-decoration: none;
+    pointer-events: none;
+}
+
 @media (max-width: 1550px) {
     header{
         font-size: 90px;
