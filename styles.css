@@ -79,3 +79,47 @@ body{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+@media (max-width: 800px) {
+    nav{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    header{
+        margin-top: 0px;
+        font-size: 36px;
+        line-height: 70px;
+    }
+    .slogan{
+        border-bottom: 0px solid white;
+        width: 298px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 70px;
+        line-height: 25px;
+    }
+
+    .copy{
+        margin-top: 10vh;
+    }
+
+    .permalinks, .home-link, .contact, .contact2, .contact3, .slogan{
+        font-size: 16px;
+    }
+    .contact-bar{
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 325px;
+        border-top: 2px solid white;
+        flex-direction: column;
+    }
+    .contact, .contact2, .contact3{
+        line-height: 1px;
+        margin-bottom: 12px;
+    }
+    .contact2, .contact3{
+        
+    }
+}
