@@ -80,6 +80,47 @@ body{
     margin-right: 50px;
 }
 
+.contact3{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+@media (max-width: 1550px) {
+    header{
+        font-size: 90px;
+        line-height: 160px;
+        margin-top: -80px;
+    }
+    .slogan{
+        border-bottom: 0px solid white;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 70px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 1200px) {
+    header{
+        font-size: 60px;
+        line-height: 100px;
+        margin-top: -80px;
+    }
+    .contact-bar{
+        margin-top: -10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 625px;
+        border-top: 2px solid white;
+        flex-direction: column;
+    }
+    .contact, .contact2, .contact3{
+        line-height: 1px;
+        margin-bottom: 12px;
+    }
+}
+
 @media (max-width: 800px) {
     nav{
         padding-left: 30px;
@@ -88,7 +129,7 @@ body{
 
     header{
         margin-top: 0px;
-        font-size: 36px;
+        font-size: 28px;
         line-height: 70px;
     }
     .slogan{
@@ -119,7 +160,5 @@ body{
         line-height: 1px;
         margin-bottom: 12px;
     }
-    .contact2, .contact3{
-        
-    }
 }
+
